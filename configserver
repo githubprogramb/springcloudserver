@@ -1,0 +1,12 @@
+spring.application.name=springcloud-config-server
+server.port=8080
+spring.cloud.config.server.git.uri=https://github.com/githubprogramb/springcloudserver
+spring.cloud.config.label=master
+spring.cloud.config.server.git.search-paths=respoitory
+spring.cloud.config.server.git.username=githubprogramb
+spring.cloud.config.server.git.password=S2222.pass
+
+#在git上创建文件夹，放上开发，测试，生产环境的配置文件
+#在本地创建config-server-git项目
+#完成application.yml配置
+#启动ConfigServerGitApplication.java
